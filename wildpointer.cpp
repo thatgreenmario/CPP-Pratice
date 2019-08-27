@@ -2,11 +2,10 @@
 using namespace std;
 int main()
 {
-	const int k=5;
-	const int *p=&k;
-	p++;
+	int k=5;
+	int *p=nullptr;
 	cout<<*p;
 
 	return 0;
-}
 
+}

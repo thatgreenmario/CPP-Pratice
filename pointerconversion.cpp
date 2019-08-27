@@ -2,11 +2,10 @@
 using namespace std;
 int main()
 {
-	const int k=5;
-	const int *p=&k;
-	p++;
-	cout<<*p;
+	int a=65;
+	int *b=&a;
+	char *c=(char*)b;
+	cout<<*c;
 
 	return 0;
 }
-
